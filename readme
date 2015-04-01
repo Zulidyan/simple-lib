@@ -1,0 +1,15 @@
+HW2 Questions:
+To answer question 3: I still need to modify login() correctly, have better exception handling, and add Serialization to my
+library management system in order to get it function properly. I also need to understand how Date works and set the due dates correctly,
+and implement them for each User subclass to properly reflect the requirements in homework 1.
+
+HW3 Questions:
+The implementation of a search Strategy design pattern enables one to add and define as many algorithms for a search as needed,
+and simply select a concrete strategy based on user input at runtime. That way you can decouple the logic from its use.
+In addition to a Strategy design pattern, a Singleton pattern was also used to ensure that only one instance of Library
+would ever be created. By making the Library constructor private, this enforces a stronger design.
+
+Serializable is still not implemented, but the functionality of the program should still be intact and the data structures
+should be updated when new information is added. There is a bug with Library.removeUser(): it does not find the user by name.
+
+The class diagram is 'classdiagram3.dnx'.
